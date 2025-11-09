@@ -1,0 +1,31 @@
+template:
+  id: lecture-outline-template
+  name: "Lecture Outline"
+  version: 1.0
+  output:
+    format: markdown
+    filename: docs/lecture-outline.md
+  title: "Lecture Outline"
+  sections:
+    - id: title
+      title: Titel
+      template: "Name of the lecture or course"
+    - id: audience
+      title: Target Audience
+      template: "Who is this course/lecture for?"
+    - id: time-commitment
+      title: Time Investment
+      template: "Estimated time investment (e.g., semester hours, total hours)"
+    - id: abstract
+      title: Summary
+      template: >
+        Detailed abstract covering all topics,
+        demonstrating benefits & applications.
+    - id: learning-goals
+      title: Learning Objectives
+      template: >
+        List of 3-5 clear learning objectives with application scenarios.
+    - id: logo
+      title: Logo (optional)
+      template: >
+        Prompt for creating a logo for the lecture.
